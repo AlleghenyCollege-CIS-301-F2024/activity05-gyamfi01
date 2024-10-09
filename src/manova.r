@@ -1,6 +1,6 @@
 # Manova demo using Skulls dataset.
 
-# Add Your Name Here
+# Jason Gyamfi
 
 rm(list = ls()) # clear out the variables from memory to make a clean execution of the code.
 
@@ -58,9 +58,3 @@ ggplot(means_long, aes(x = epoch, y = mean_value, fill = measurement)) +
        y = "Mean Value") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
-##################################
-# Add manova code below
-##################################
-
-# TODO
